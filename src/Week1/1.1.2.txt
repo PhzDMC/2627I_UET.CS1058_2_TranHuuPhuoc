@@ -1,0 +1,25 @@
+a)
+- Chuỗi n-1 thao tác lần lượt kết nối phần tử 0 với tất cả các phần tử còn lại từ 1 đến n-1
+=> Cấu trúc dữ liệu thu được chứa 1 thành phần liên thông
+b)
+-  union(p,q) không bao giờ thay đổi giá trị leader[p]
+    + union(0,1) => 1 lần cập nhật
+    + union(0,2) => 2 lần cập nhật
+    + ...
+    + union(0,n-1) => n-1 lần cập nhật
+=> Số lần cập nhật mảng: 1 + 2 + ... + (n-1) = n(n-1)/2 ~ n^2/2
+c)
+- union(p,q) không bao giờ thay đổi parent[q] -> gốc của p trỏ vào gốc của q
+    + union(0,1): 0 -> 1
+    + union(0,1): 0 -> 1 -> 2
+    + ...
+    + union(0,n-1): 0 -> 1 -> 2 -> ... -> n-1
+Gọi find(0) phải đi từ nút 0 đến gốc n-1
+=> Số lần cập nhật mảng: O(n)
+d)
+- union(0,1): 2 cây kích thước bằng nhau => 1 -> 0
+  union(0,2): root(0) có size lớn hơn root(2) => 2 -> 0
+  ...
+  union(0,n-1): n-1 -> 0
+=> 0 là gốc của tất cả phần tử, thao tác find(0) chỉ cần kiểm tra parent[0] == 0 rồi dừng ngay
+=> Số lần truy cập mảng: O(1)

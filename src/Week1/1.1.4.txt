@@ -1,0 +1,4 @@
+- Gốc 0 (size=4) có các nút: 0,1,2,3
+- Gốc 4 (size=4) có các nút: 4,5,6,7
+- Cây 9->8 có size=2
+=> parent[8] có thể nhận các giá trị: 0, 4, 8

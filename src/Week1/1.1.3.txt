@@ -1,0 +1,9 @@
+- weighted quick union => cây có độ sâu h cần ít nhất 2^h nút
+=> Loại (4,5), (5,7), (6,4)
+- union(0,4): size root(0) = size root(4): 4 -> 0 (bị ngược)
+=> loại (0,4)
+- union(2,3): phải nối root(3) vào root(2) tức 3 -> 4
+=> loại (2,3)
+
+Các cặp có thể là tham số của lệnh union(p, q) gần nhất gồm:
+(4,0), (5,0), (8,9)

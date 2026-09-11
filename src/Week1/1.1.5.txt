@@ -1,0 +1,6 @@
+- Trước khi thực hiện union(0,5) ta có:
+    root(0) = 0 , size = 7
+    root(5) = 5, size = 3
+=> Theo quy tắc weighted quick union root(5) được nối vào root(0) hay 5 -> 0
+Biểu diễn trong bảng đang là 0 -> 5
+=> Không phải biểu diễn parent-link của một cấu trúc dữ liệu weighted quick union
