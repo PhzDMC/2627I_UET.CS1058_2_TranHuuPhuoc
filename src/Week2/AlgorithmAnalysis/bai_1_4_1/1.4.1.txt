@@ -1,0 +1,31 @@
+1. Bước cơ sở:
+Kiểm tra với N = 3
+Khi có 3 phần tử thì chỉ chọn được 1 bộ ba
+Công thức:
+3(3-1)(3-2)/6 = 3*2*1/6 = 1 -> Đúng với N = 3
+
+2. Giả thiết quy nạp:
+Giả sử với N = k, số bộ ba chọn được là:
+k(k-1)(k-2)/6
+
+3. Bước quy nạp:
+Xét k+1 phần tử
+Chia các bộ ba thành 2 loại:
+
+- Loại 1: Bộ ba không chứa phần tử mới
+  Số bộ ba là:
+  k(k-1)(k-2)/6
+
+- Loại 2: Bộ ba có chứa phần tử mới
+  Khi đã chọn phần tử mới, cần chọn thêm 2 phần tử trong k phần tử còn lại
+-> Số cách chọn là:
+  k(k-1)/2
+
+-> tổng số bộ ba từ k+1 phần tử là:
+k(k-1)(k-2)/6 + k(k-1)/2
+= (k+1)((k+1)-1)((k+1)-2)/6 ->  Đúng với k+1
+
+=> Theo nguyên lý quy nạp toán học: N(N-1)(N-2)/6 đúng với mọi N >= 3.
+
+
+

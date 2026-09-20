@@ -1,0 +1,14 @@
+a.
+- Phân tích: n giảm nửa qua từng bước: N, N/2, N/4, ..., 1. Vòng trong chạy n lần
+- Tổng thao tác: S = N + N/2 + N/4 + ... + 1 = N * (1 + 1/2 + 1/4 + ...) ~ 2N
+- Kết luận: Bậc tăng của thời gian chạy là tuyến tính — O(N)
+
+b.
+- Phân tích: i nhân đôi qua từng bước: 1, 2, 4, ..., 2^k (với 2^k < N). Vòng trong chạy i lần
+- Tổng thao tác: S = 1 + 2 + 4 + ... + 2^k = 2^(k+1) - 1 ~ 2N
+- Kết luận: Bậc tăng của thời gian chạy là tuyến tính — O(N)
+
+c.
+- Phân tích: Vòng ngoài lặp ~ lg N lần. Vòng trong luôn lặp N lần độc lập
+- Tổng thao tác: S ~ N lg N
+- Kết luận: Bậc tăng của thời gian chạy là tuyến tính - logarit — O(N log N)
