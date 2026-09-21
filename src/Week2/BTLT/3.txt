@@ -1,0 +1,2 @@
+Chặn trên O(n^2)
+Chặn dưới omega(n^2)

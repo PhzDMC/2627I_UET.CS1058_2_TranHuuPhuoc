@@ -1,0 +1,10 @@
+1. Một đối tượng Node (non-static inner class):
+- Object overhead: 16 bytes
+- Tham chiếu ẩn tới BST: 8 bytes
+- 5 tham chiếu (key, val, parent, left, right): 5 * 8 = 40 bytes
+- 1 biến int count: 4 bytes
+- Padding: 4 bytes
+=> Kích thước 1 Node = 16 + 8 + 40 + 4 + 4 = 72 bytes
+2. Đối tượng vỏ BST:
+- Overhead (16) + root (8) + int n (4) + Padding (4) = 32 bytes
+=> 32 + 72n => ~ 72n bytes

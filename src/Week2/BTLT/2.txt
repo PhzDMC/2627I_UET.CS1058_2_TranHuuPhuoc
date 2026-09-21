@@ -1,0 +1,10 @@
+Hai vòng ngoài (i và j):
+Chạy dạng tổ hợp chọn 2 từ M = n^2 phần tử:
+~ (1/2) * M^2 = (1/2) * (n^2)^2 = (1/2) * n^4
+
+Vòng trong cùng (k):
+Biến k nhân đôi liên tục đến n^2:
+~ log_2(n^2) = 2 * log_2(n)
+
+=>Tổng:
+~ (1/2 * n^4) * (2 * log_2(n)) =  n^4 * log_2(n)

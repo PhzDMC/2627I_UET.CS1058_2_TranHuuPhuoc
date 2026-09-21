@@ -1,0 +1,4 @@
+Số hạng chi phối: 3*n*sqrt(n) = 3*n^1.5 (vì n^1.5 tăng nhanh hơn n*log^2(n) và 5n)
+- Tilde: ~ 3*n*sqrt(n)
+- Theta: Theta(n*sqrt(n))
+=> Đáp án đúng: O(n^3), O(n*sqrt(n)), Omega(log n)

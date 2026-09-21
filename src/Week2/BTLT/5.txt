@@ -1,0 +1,4 @@
+Hai vòng ngoài (i và j): ~ n*(n + 1) / 2 ~ (1/2) * n^2
+Vòng trong (k): Mỗi bước tăng n/100 từ 1 đến n => Chạy cố định đúng 100 lần.
+=> Tổng số lần in "hello": ~ (1/2 * n^2) * 100 = 50n^2
+

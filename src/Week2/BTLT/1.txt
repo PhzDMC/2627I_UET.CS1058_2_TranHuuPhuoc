@@ -1,0 +1,42 @@
+1.
+Biến i bắt đầu từ 10, tăng mỗi bước 2 đơn vị cho đến khi i >= n + 5
+Số lần lặp xấp xỉ khoảng:
+((n + 5) - 10) / 2 = (n - 5) / 2 = 1/2*n - 2.5
+Ký hiệu Tilde (~): ~ (1/2)n
+Ký hiệu Big-Theta (Theta): Theta(n)
+
+2.
+Số lần lặp là số lũy thừa của 2 không vượt quá n^3
+=> 2^k < n^3
+=> k < 3log_2(n)
+ký hiệu Tilde (~): ~ 3log_2(n)
+Ký hiệu Big-Theta (Theta): Theta(log n)
+
+3.
+Vòng lặp ngoài theo i chạy đúng n lần
+Vòng lặp trong theo j chạy cố định đúng 100 lần
+Tổng số lần thực thi là: 100n
+Ký hiệu Tilde (~): ~ 100n
+Ký hiệu Big-Theta (Theta): Theta(n)
+
+4.
+Vòng lặp ngoài: i * i < n <=> i < sqrt(n) => ~ sqrt(n) lần
+Vòng lặp trong: Biến j nhân 3 sau mỗi bước => ~ log_3(n) lần
+=> tổng: sqrt(n) * log_3(n)
+Ký hiệu Tilde (~): ~ sqrt(n) * log_3(n)
+Ký hiệu Big-Theta (Theta): Theta(sqrt(n) * log(n))
+
+5.
+Vòng lặp ngoài theo i chạy đúng n lần
+Vòng lặp trong: Biến j khởi tạo bằng 1 => ~ log_2(n) lần
+Tổng số lần gọi là: n * log_2(n)
+Ký hiệu Tilde (~): ~ n * log_2(n)
+Ký hiệu Big-Theta (Theta): Theta(n log n)
+
+6.
+Hai vòng ngoài (i và j): Vòng i chạy n lần, vòng j chạy cố định 100 lần => 100n lần
+Hai vòng trong (k và l): Với mỗi k từ 0 đến n - 1, biến l chạy từ k đến n - 1 => n*(n + 1) / 2 lần
+=> Tổng:
+100n * (n*(n + 1) / 2) = 50n^2 * (n + 1) = 50n^3 + 50n^2
+Ký hiệu Tilde (~): ~ 50n^3
+Ký hiệu Big-Theta (Theta): Theta(n^3)
