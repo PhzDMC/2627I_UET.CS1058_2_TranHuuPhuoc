@@ -9,4 +9,4 @@ c)
     + Thêm n node vào danh sách liên kết => Theta(n)
     + Chi phí in: 3 + 6 + 9 + ... + 3k ~ Theta(k^2) ~ Theta(n^2)
 => Chi phí Amortized:
-(Theta(n) + Theta(n^2) / n ~ Theta(n^2) / n ~ Theta(n)
+(Theta(n) + Theta(n^2)) / n ~ Theta(n^2) / n ~ Theta(n)
