@@ -1,0 +1,12 @@
+a)
+- Chuỗi in ra: 1 2 3 3 4 5 4 5 6 7
+b)
+- Thời gian worst-case = thêm vào danh sách liên kết Theta(1) + in n phần tử Theta(n) = Theta(n)
+c)
+- Hàng đợi to nhanh nhất từ trạng thái rỗng
+=> chuỗi thao tác tồi nhất là chuỗi toàn lệnh enqueue (không có dequeue nào làm giảm kích thước)
+- Tổng thời gian của n thao tác enqueue:
+    + Thêm n node vào danh sách liên kết => Theta(n)
+    + Chi phí in: 3 + 6 + 9 + ... + 3k ~ Theta(k^2) ~ Theta(n^2)
+=> Chi phí Amortized:
+(Theta(n) + Theta(n^2) / n ~ Theta(n^2) / n ~ Theta(n)
