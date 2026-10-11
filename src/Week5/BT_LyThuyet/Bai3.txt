@@ -1,0 +1,7 @@
+A. Mảng gốc
+-> F. Heapsort
+-> D. Merge Sort
+-> B. Selection Sort
+-> E. Quicksort
+-> C. Inserion Sort
+-> G. Mảng đã sắp xếp

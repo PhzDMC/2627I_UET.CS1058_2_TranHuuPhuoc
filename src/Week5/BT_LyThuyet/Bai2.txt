@@ -1,0 +1,11 @@
+a.
+- i phần tử cuối cùng trong mảng đã được sắp xếp đúng thứ tự
+- i phần tử cuối cùng trong mảng là i phần tử lớn nhất của mảng
+b.
+- Có (do chỉ sử dụng O(1) bộ nhớ phụ)
+c.
+- Có (do câu lệnh less(a[j+1], a[j]) không tráo đổi hai phần tử bằng nhau)
+d.
+- Số lần gọi hàm exch() để sắp xếp một mảng có dạng [2,3,4..,n-1,n]: 0
+- Số lần gọi less() trong trường hợp tốt nhất (best case): ~n
+- Số lần gọi less() trong trường hợp tồi nhất (worst case): ~ 1/2(n^2)
