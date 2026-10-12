@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class Bai5 {
     public static List<Integer> quickSort(List<Integer> arr) {
-        // Write your code here
         int n = arr.size();
         int pivot=arr.get(0);
         Collections.swap(arr,0,n-1);

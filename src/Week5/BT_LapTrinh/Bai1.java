@@ -9,7 +9,6 @@ import java.util.Scanner;
 
 public class Bai1 {
     public static int introTutorial(int V, List<Integer> arr) {
-        // Write your code here
         int left=0,right= arr.size()-1;
         while (left<=right){
             int mid = left +(right-left)/2;
