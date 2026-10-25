@@ -1,0 +1,12 @@
+Vòng lặp 1: Thêm n phần tử vào MinPQ
+- insert() sử dụng swim()
+- Mỗi lần thêm có độ phức tạp tối đa O(logn)
+- Thực hiện n lần
+=> Tổng thời gian: O(nlogn)
+Vòng lặp 2: Lấy n phần tử nhỏ nhất
+- delMin() xóa phần tử nhỏ nhất và sử dụng sink()
+- Mỗi lần xóa có độ phức tạp tối đa O(logn)
+- Thực hiện n lần
+=> Tổng thời gian: O(nlogn)
+
+=> Tổng độ phức tạp: O(nlogn)

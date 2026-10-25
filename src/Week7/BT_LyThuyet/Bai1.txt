@@ -1,0 +1,12 @@
+Bước 1: So sánh 77 với 10
+- 77 > 10 → đổi chỗ.
+- Node 77 đi lên vị trí của 10.
+Bước 2: So sánh 77 với 75
+- 77 > 75 → đổi chỗ.
+- Node 77 đi lên vị trí của 75.
+Bước 3: So sánh 77 với 80
+- 77 < 80 → không đổi chỗ.
+- Dừng swim() vì tính chất Max Heap đã được khôi phục
+
+Các cặp key được so sánh theo đúng thứ tự: (77,10) → (77,75) → (77,80)
+

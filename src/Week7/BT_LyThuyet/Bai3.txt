@@ -1,0 +1,9 @@
+Một Max Heap phải thỏa mãn 2 điều kiện:
+1. Tính chất Heap: Mọi node cha phải lớn hơn hoặc bằng các node con
+2. Tính chất cây nhị phân hoàn chỉnh :Các tầng phải được lấp đầy từ trên xuống,
+tầng cuối cùng phải được điền từ trái sang phải, không được có khoảng trống.
+Xét cây trong đề:
+- Điều kiện 1: Thỏa mãn, tất cả node cha đều lớn hơn các node con
+- Điều kiện 2: Không thỏa mãn
+Cụ thể: node 65 không có con, nhưng node 35 bên phải lại có con là 25 và 15
+=> Cây này không phải Max Heap hợp lệ
