@@ -1,0 +1,7 @@
+Đây không phải là cây nhị phân tìm kiếm hợp lệ.
+Giải thích:
+Theo quy tắc của cây nhị phân tìm kiếm, mọi nút ở nhánh con bên trái phải nhỏ hơn gốc,
+và mọi nút ở nhánh con bên phải phải lớn hơn gốc.
+Cây này vi phạm ở 2 vị trí so với gốc 25:
+    - Nút 28 nằm ở nhánh bên trái của 25 nhưng lại lớn hơn 25 (28 > 25).
+    - Nút 20 nằm ở nhánh bên phải của 25 nhưng lại nhỏ hơn 25 (20 < 25).

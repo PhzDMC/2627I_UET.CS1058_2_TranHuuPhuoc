@@ -1,0 +1,9 @@
+Đáp án đúng là B.
+Giải thích:
+- Trong cây đỏ-đen nghiêng trái, mỗi liên kết màu đỏ nối giữa nút cha và nút con trái
+  sẽ được gộp chung lại thành một nút chứa 2 khóa (3-node) trong cây 2-3:
+    + Liên kết đỏ giữa 20 và 13 gộp thành nút: (13 20)
+    + Liên kết đỏ giữa 10 và 9 gộp thành nút: (9 10)
+    + Liên kết đỏ giữa 17 và 14 gộp thành nút: (14 17)
+    + Liên kết đỏ giữa 57 và 52 gộp thành nút: (52 57)
+  Các liên kết còn lại đều màu đen nên các nút 30, 50, 25, 45 giữ nguyên là các nút đơn (2-node)
