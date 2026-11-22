@@ -5,7 +5,7 @@ import java.util.*;
 - Vòng lặp duyệt arr: O(n)
 - Vòng lặp duyệt hashMap.entrySet(): duyệt k phần tử phân biệt -> O(k)
 - Sắp xếp danh sách kết quả list.sort(null): O(1) do max(brr) - min(brr) <= 100
-Vì k<=m => Độ phức tạp : O(m+n)
+Vì k<=m và n<=m => Độ phức tạp : O(m)
 */
 public class Bai5_HashTables {
     static List<Integer> missingNumbers(List<Integer> arr, List<Integer> brr) {
